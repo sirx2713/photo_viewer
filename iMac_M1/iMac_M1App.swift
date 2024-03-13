@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct photo_viewerApp: App {
+struct iMac_M1App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

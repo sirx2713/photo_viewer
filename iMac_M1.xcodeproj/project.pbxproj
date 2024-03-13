@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E016F152B8BE9DD0053E43F /* photo_viewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E016F142B8BE9DD0053E43F /* photo_viewerApp.swift */; };
+		2E016F152B8BE9DD0053E43F /* iMac_M1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E016F142B8BE9DD0053E43F /* iMac_M1App.swift */; };
 		2E016F172B8BE9DD0053E43F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E016F162B8BE9DD0053E43F /* ContentView.swift */; };
 		2E016F192B8BE9DD0053E43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E016F182B8BE9DD0053E43F /* Assets.xcassets */; };
 		2E016F1C2B8BE9DD0053E43F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E016F1B2B8BE9DD0053E43F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E016F112B8BE9DD0053E43F /* photo_viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photo_viewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E016F142B8BE9DD0053E43F /* photo_viewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_viewerApp.swift; sourceTree = "<group>"; };
+		2E016F112B8BE9DD0053E43F /* iMac_M1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMac_M1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E016F142B8BE9DD0053E43F /* iMac_M1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMac_M1App.swift; sourceTree = "<group>"; };
 		2E016F162B8BE9DD0053E43F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E016F182B8BE9DD0053E43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E016F1B2B8BE9DD0053E43F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		2E016F082B8BE9DC0053E43F = {
 			isa = PBXGroup;
 			children = (
-				2E016F132B8BE9DD0053E43F /* photo_viewer */,
+				2E016F132B8BE9DD0053E43F /* iMac_M1 */,
 				2E016F122B8BE9DD0053E43F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		2E016F122B8BE9DD0053E43F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E016F112B8BE9DD0053E43F /* photo_viewer.app */,
+				2E016F112B8BE9DD0053E43F /* iMac_M1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E016F132B8BE9DD0053E43F /* photo_viewer */ = {
+		2E016F132B8BE9DD0053E43F /* iMac_M1 */ = {
 			isa = PBXGroup;
 			children = (
-				2E016F142B8BE9DD0053E43F /* photo_viewerApp.swift */,
+				2E016F142B8BE9DD0053E43F /* iMac_M1App.swift */,
 				2E016F162B8BE9DD0053E43F /* ContentView.swift */,
 				2E016F182B8BE9DD0053E43F /* Assets.xcassets */,
 				2E016F1A2B8BE9DD0053E43F /* Preview Content */,
 			);
-			path = photo_viewer;
+			path = iMac_M1;
 			sourceTree = "<group>";
 		};
 		2E016F1A2B8BE9DD0053E43F /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E016F102B8BE9DC0053E43F /* photo_viewer */ = {
+		2E016F102B8BE9DC0053E43F /* iMac_M1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E016F1F2B8BE9DD0053E43F /* Build configuration list for PBXNativeTarget "photo_viewer" */;
+			buildConfigurationList = 2E016F1F2B8BE9DD0053E43F /* Build configuration list for PBXNativeTarget "iMac_M1" */;
 			buildPhases = (
 				2E016F0D2B8BE9DC0053E43F /* Sources */,
 				2E016F0E2B8BE9DC0053E43F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = photo_viewer;
+			name = iMac_M1;
 			productName = photo_viewer;
-			productReference = 2E016F112B8BE9DD0053E43F /* photo_viewer.app */;
+			productReference = 2E016F112B8BE9DD0053E43F /* iMac_M1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E016F0C2B8BE9DC0053E43F /* Build configuration list for PBXProject "photo_viewer" */;
+			buildConfigurationList = 2E016F0C2B8BE9DC0053E43F /* Build configuration list for PBXProject "iMac_M1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E016F102B8BE9DC0053E43F /* photo_viewer */,
+				2E016F102B8BE9DC0053E43F /* iMac_M1 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E016F172B8BE9DD0053E43F /* ContentView.swift in Sources */,
-				2E016F152B8BE9DD0053E43F /* photo_viewerApp.swift in Sources */,
+				2E016F152B8BE9DD0053E43F /* iMac_M1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E016F0C2B8BE9DC0053E43F /* Build configuration list for PBXProject "photo_viewer" */ = {
+		2E016F0C2B8BE9DC0053E43F /* Build configuration list for PBXProject "iMac_M1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E016F1D2B8BE9DD0053E43F /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E016F1F2B8BE9DD0053E43F /* Build configuration list for PBXNativeTarget "photo_viewer" */ = {
+		2E016F1F2B8BE9DD0053E43F /* Build configuration list for PBXNativeTarget "iMac_M1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E016F202B8BE9DD0053E43F /* Debug */,
